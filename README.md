@@ -57,43 +57,32 @@ Manually forming teams while considering all these constraints is time-consuming
 
 ## 📸 Screenshots
 
-<<<<<<< HEAD
-The following screenshots are required for the application to function properly. Place them in the `images` directory:
+The following screenshots are required for the application to function properly.
 
-1. `images/sampleInput2.png`: Example of required Excel input format
-   - Shows the expected layout of the input Excel file
-   - Required for the initial file loading dialog
+#### Input Excel File
+![load](images/load_excel_file.png)
 
-2. `images/cluster.png`: Application icon
-   - Used as the window icon
-   - Required for proper application branding
+#### Friend Matches 
+![matches](images/get_matches.png)
 
-3. `images/main_interface.png`: Main application interface
-   - Shows the friend matching table
-   - Demonstrates the interactive friend management system
+#### Search Table
+![search](images/search.png)
 
-4. `images/graph_view.png`: Network graph visualization
-   - Shows the interactive cluster visualization
-   - Demonstrates the graph editing capabilities
+#### Edit Friends Matches
+![edit](images/edit_friend_column.png)
 
-5. `images/teams_output.png`: Example of generated team Excel file
-   - Shows the color-coded team assignments
-   - Demonstrates the cluster coloring system
+#### Graph View
+![Graph View](images/graph.png)
 
-### Image Requirements
-- All images should be placed in the `images` directory at the root of the project
-- The application icon (`cluster.png`) should be in PNG format
-- `sampleInput2.png` should be clear enough to show the Excel column structure
-- Screenshots should be taken at a reasonable resolution (recommended: 1920x1080 or higher)
-=======
-[Add screenshots in the following order:]
+#### Edit Graph
+![edit graph](images/edit_graph.png)
 
-1. `images/sampleInput2.png`: Example of required Excel input format
-2. `images/cluster.png`: Application icon
-3. `images/main_interface.png`: Main application interface showing the friend matching table
-4. `images/graph_view.png`: Network graph visualization of clusters
-5. `images/teams_output.png`: Example of generated team Excel file
->>>>>>> 54517c622f25632d9967d554b02f67389415b848
+#### Search Graph
+![search graph](images/search_graph.png)
+
+#### Teams Excel Output
+![otuput](images/teams_output.png)
+
 
 ## 🚀 Installation
 
@@ -114,6 +103,8 @@ pip install -r requirements.txt
    - Friend 1
    - Friend 2
 
+   *OR* use the ready-to-use excel file in test files folder
+
 2. Run the application:
 ```bash
 python cluster-and-form.py
@@ -123,56 +114,10 @@ python cluster-and-form.py
 4. Use the graph view to visualize and edit clusters
 5. Generate teams and export to Excel
 
-## 📦 Building Executable
-
-<<<<<<< HEAD
-To create a standalone executable, ensure all required images are in place and run:
-```bash
-pyinstaller --onefile --windowed ^
---hidden-import tkinter ^
---hidden-import openpyxl ^
---hidden-import pyvis ^
---hidden-import pandas ^
---hidden-import numpy ^
---hidden-import lxml ^
---hidden-import collections ^
---hidden-import copy ^
---hidden-import random ^
---hidden-import math ^
---hidden-import sys ^
---hidden-import PyQt5 ^
---hidden-import PyQt5.QtCore ^
---hidden-import PyQt5.QtGui ^
---hidden-import PyQt5.QtWidgets ^
---hidden-import PyQt5.QtWebEngineWidgets ^
---hidden-import PyQt5.QtWebChannel ^
---add-data "images/PYF-Logo.jpg;." ^
---add-data "path/to/pyvis/templates;pyvis/templates" ^
---icon "images/cluster.png" ^
-cluster-and-form.py
-```
-
-Note: Update the paths in the PyInstaller command according to your system's configuration.
-
-=======
-To create a standalone executable:
-```bash
-pyinstaller --onefile --windowed --hidden-import tkinter --hidden-import openpyxl --hidden-import pyvis --hidden-import pandas --hidden-import numpy --hidden-import lxml --hidden-import collections --hidden-import copy --hidden-import random --hidden-import math --hidden-import sys --hidden-import PyQt5 --hidden-import PyQt5.QtCore --hidden-import PyQt5.QtGui --hidden-import PyQt5.QtWidgets --hidden-import PyQt5.QtWebEngineWidgets --hidden-import PyQt5.QtWebChannel --add-data "path/to/PYF-Logo.jpg;." --add-data "path/to/pyvis/templates;pyvis/templates" --icon "path/to/PYF-Logo.jpg" cluster-and-form.py
-```
-
->>>>>>> 54517c622f25632d9967d554b02f67389415b848
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
-
-[Add your chosen license here]
-
 ## 👤 Author
 
-<<<<<<< HEAD
-[Your name/contact information] 
-=======
-[Your name/contact information]
->>>>>>> 54517c622f25632d9967d554b02f67389415b848
+Bassel Samir Tharwat
