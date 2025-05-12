@@ -16,7 +16,7 @@ pyinstaller --onefile --windowed ^
 --hidden-import PyQt5.QtWidgets ^
 --hidden-import PyQt5.QtWebEngineWidgets ^
 --hidden-import PyQt5.QtWebChannel ^
---add-data "D:/Service/PYF/PYF TEAMS/PYF-Logo.jpg;." ^
+--add-data "images/cluster.png" ^
 --add-data "C:/Users/lenovo01/AppData/Local/Programs/Python/Python313/Lib/site-packages/pyvis/templates;pyvis/templates" ^
---icon "D:/Service/PYF/PYF TEAMS/PYF-Logo.jpg" ^
+--icon "images/cluster.png" ^
 cluster-and-formII.py
