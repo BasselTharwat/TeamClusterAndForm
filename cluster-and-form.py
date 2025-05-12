@@ -446,9 +446,9 @@ def export_teams_to_excel():
 
             # Apply color to Type cells for "F" and "S"
             elif "Type" in ws.cell(row=1, column=cell.column).value:
-                if cell.value == 'F':
+                if cell.value == 'Leader':
                     cell.fill = PatternFill(start_color="ADD8E6", end_color="ADD8E6", fill_type="solid")  # Blue for F
-                elif cell.value == 'S':
+                elif cell.value == 'Subleader':
                     cell.fill = PatternFill(start_color="FFFF00", end_color="FFFF00", fill_type="solid")  # Yellow for S
 
     # Ask the user where to save the file

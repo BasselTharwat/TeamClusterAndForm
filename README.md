@@ -1,5 +1,7 @@
 # Cluster and Form
 
+> An intelligent team formation system that transforms the tedious process of organizing university activities into an automated, constraint-aware, and friend-preference-respecting solution.
+
 A powerful tool for organizing university activities by automatically forming balanced teams while respecting friend preferences and team constraints.
 
 ## 🎯 Problem Statement
