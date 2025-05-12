@@ -1,0 +1,22 @@
+pyinstaller --onefile --windowed ^
+--hidden-import tkinter ^
+--hidden-import openpyxl ^
+--hidden-import pyvis ^
+--hidden-import pandas ^
+--hidden-import numpy ^
+--hidden-import lxml ^
+--hidden-import collections ^
+--hidden-import copy ^
+--hidden-import random ^
+--hidden-import math ^
+--hidden-import sys ^
+--hidden-import PyQt5 ^
+--hidden-import PyQt5.QtCore ^
+--hidden-import PyQt5.QtGui ^
+--hidden-import PyQt5.QtWidgets ^
+--hidden-import PyQt5.QtWebEngineWidgets ^
+--hidden-import PyQt5.QtWebChannel ^
+--add-data "D:/Service/PYF/PYF TEAMS/PYF-Logo.jpg;." ^
+--add-data "C:/Users/lenovo01/AppData/Local/Programs/Python/Python313/Lib/site-packages/pyvis/templates;pyvis/templates" ^
+--icon "D:/Service/PYF/PYF TEAMS/PYF-Logo.jpg" ^
+cluster-and-formII.py
